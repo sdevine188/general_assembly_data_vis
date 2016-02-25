@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employment by State by Year</title>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/1.5.3/numeral.min.js"></script>
+    <script src="fips.js"></script>
+    <script src="naics.js"></script>
+    <script src="asm3.js"></script>
+    <link rel="stylesheet" href="asm3.css">
+  </head>
+  <body>
+    <h1>Employment by State by Year</h1>
+    <select class="states"></select>
+    <br>
+    <br>
+    <div id="employment-by-state"></div>
+    <div id="employment-by-year-graph" style="width: 100%; height: 650px"></div>
+    <br>
+    <br>
+    <br>
+    <select class="naics"></select>
+    <br>
+    <br>
+    <div id="naics-by-year-graph" style="width: 100%; height: 650px"></div>
+  </body>
+</html>
